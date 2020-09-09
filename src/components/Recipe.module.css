@@ -1,0 +1,39 @@
+.recipe{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 20px;
+    border: 2px dotted #f0807f;
+    border-radius: 20px;
+}
+
+.title{
+  color: #80CBC4;
+}
+
+.ingredients{
+  list-style: none;
+  padding: 0;
+}
+
+.recipeImage {
+    width: 30vh;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.heart{
+    display: inline-block;
+    width: 30px;
+    align-self: flex-end;
+    cursor: pointer;
+    filter: brightness(0.3);
+}
+
+.heart:hover{
+    filter: grayscale(0.5);
+}
+
+.active {
+    filter: grayscale(0);
+}
