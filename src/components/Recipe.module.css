@@ -31,7 +31,7 @@
 }
 
 .heart:hover{
-    filter: grayscale(0.5);
+transform: scale(1.1);
 }
 
 .active {
