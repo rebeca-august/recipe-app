@@ -1,15 +1,21 @@
 .app {
-min-height: 100vh;
-background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-background-blend-mode: screen;
-font-family: 'Courier New', Courier, monospace;
+  min-height: 100vh;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-blend-mode: screen;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.recipes{
+.recipes {
   width: 50vw;
   min-height: 100%;
   display: flex;
   flex-direction: column;
   margin: 20px auto 0;
   color: whitesmoke;
+}
+
+@media only screen and (max-width: 650px) {
+  .recipes {
+    width: 90vw;
+  }
 }
